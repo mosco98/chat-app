@@ -16,7 +16,7 @@ const Chat = ({ location }) => {
   const [message, setMessage] = useState('')
   const [messages, setMessages] = useState([])
 
-  const ENDPOINT = 'localhost:5000'
+  const ENDPOINT = 'https://react-chat-appplication1.herokuapp.com/'
 
   // for getting user name and room info
   useEffect(() => {
